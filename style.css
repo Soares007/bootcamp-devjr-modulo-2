@@ -18,9 +18,7 @@ body {
 
 .flex-container {
     display: flex;
-    background-color: #ed2c39;
     justify-content: space-around;
-    padding: 20px;
 }
 
 .header-title {
@@ -32,8 +30,55 @@ body {
 }
 
 .header-subtitle {
-    color: #367f7d;
+    color: #1d6765;
     font-size: 20px;
     font-weight: 588;
     margin-bottom: 15px;
+}
+
+.column-1 {
+    background-color: #ed2c39;
+    width: 50%;
+    padding: 20px;
+    color: #fff;
+}
+
+.column-2 {
+    background-color: #8a56ee;
+    width: 50%;
+    padding: 20px;
+    color: #fff;
+}
+
+.monthly-title {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.price {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.how-time {
+    font-size: 15px;
+    font-style: italic;
+    margin-left: 8px;
+}
+
+.buttonpay {
+    width: 100%;
+    padding: 15px 32px;
+    color: #ed2c39;
+    background-color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.buttonpay:hover{
+    background-color: #81c6c3;
 }
