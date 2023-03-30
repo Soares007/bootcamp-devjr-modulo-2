@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-    padding: 1.2rem;
+    padding: 0.9rem;
 }
 
 .flex-container {
@@ -71,9 +71,9 @@ body {
     margin-top: 1.2rem;
 }
 
-.buttonpay {
+button {
     width: 100%;
-    padding: 15px 32px;
+    padding: 0.9rem 2rem;
     color: #ed2c39;
     background-color: #fff;
     font-size: 16px;
@@ -83,7 +83,7 @@ body {
     cursor: pointer;
 }
 
-.buttonpay:hover {
+button:hover {
     background-color: #81c6c3;
 }
 
@@ -94,6 +94,47 @@ body {
 
 .sub-img {
   text-align: center;
+}
+
+.flex-container-register {
+    display: flex;
+    background-color: #ed2c39;
+}
+
+a {
+    color: #81c6c3;
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+input {
+    margin: 0.5rem;
+    padding: 0.9rem;
+    border-radius: 0.4rem;
+    width: 95%;
+    height: 1.3rem;
+    font-size: 1.2rem;
+    border: 0;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 0 0 5px black;
+}
+.form-register {
+    background-color: #006A6A;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 @media  screen and (max-width: 620px) {
@@ -112,5 +153,8 @@ body {
 
    .container {
     width: 95%;
+   }
+   .header {
+    padding: 15px;
    }
 }
